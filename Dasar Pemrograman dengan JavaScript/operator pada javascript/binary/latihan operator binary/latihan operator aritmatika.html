@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan soal operator aritmatika</title>
+</head>
+
+<body>
+    <script>
+        // 1. soal pertama :
+
+        /*
+        Tentukan hasil dari operasi berikut:
+        5 + 10 = ?
+        12 - 5 = ?
+        4 x 3 = ?
+        10 / 2 = ?
+        */
+
+        // A
+        const soalPertamaA = 5 + 10;
+        console.log(soalPertamaA);
+        // B
+        const soalPertamaB = 12 - 5;
+        console.log(soalPertamaB);
+        // C
+        const soalPertamaC = 4 * 3;
+        console.log(soalPertamaC);
+        // D
+        const soalPertamaD = 10 / 2;
+        console.log(soalPertamaD);
+
+        // 2. soal kedua :
+
+        /*Sebuah toko roti memiliki 25 roti. Toko tersebut menjual 10 roti di pagi hari dan 8 roti di sore hari. Berapa banyak roti yang tersisa di toko?*/
+
+        // jawab
+        let roti = 25;
+        let penjualanPagi = 10;
+        let penjualanSore = 8;
+        /* const tidak akan menerima variabel dengan tipe yang berbeda maka 
+        dari itu saya mengunakan variabel let untuk menampung seluruh nilai pada kasus ini */
+
+        const rotiYangTersisa = roti - penjualanPagi - penjualanSore; //proses perhitungan
+        console.log(rotiYangTersisa + ' roti yang tersisa'); //menampilkan hasil kedalam console
+
+        // 3. soal ketiga :
+
+        /*
+        Sebuah mobil menempuh jarak 120 km dalam waktu 2 jam. Berapa rata-rata kecepatan mobil tersebut?
+        */
+
+        //jawab 
+        let jarakTempuh = 120;
+        let waktu = 2;
+        const rataRataKecepatan = jarakTempuh / waktu; //rumus untuk mencari rata-rata kecepatan
+        console.log(rataRataKecepatan + ' km/jam');
+
+        // 4. soal keempat :
+
+        /*Harga sebuah buku adalah Rp 50.000. Jika ada diskon 20%, berapa harga buku tersebut setelah didiskon?
+         */
+
+        //jawab
+        let hargaBuku = 50000;
+        let diskon =
+        0.2; //20% harus di konversi ke dalam bilangan desimal menjadi 0.2 agar dapat digunakan dalam operasi aritmatika
+
+        const setelahDiskon = hargaBuku * (1 - diskon);
+        console.log(setelahDiskon + ' harga setelah diskon');
+
+        // 5. soal kelima :
+
+        /*
+        Sebuah kolam renang memiliki volume 100.000 liter. Jika kolam tersebut diisi air dengan kecepatan 5.000 liter per jam, berapa lama waktu yang dibutuhkan untuk mengisi kolam tersebut?
+        */
+
+        //jawab
+        let volume = 100000;
+        let kecepatanMengisiKolam = 5000;
+
+        const waktuUntukMengisiKolam = volume / kecepatanMengisiKolam; //rumus untuk menghitung  kecepatan mengisi kolam
+        console.log(waktuUntukMengisiKolam + ' jam');
+
+        // 6. soal keenam :
+
+        /*
+        Sebuah taman berbentuk persegi panjang dengan panjang 15 meter dan lebar 10 meter. Berapa luas taman tersebut?
+        */
+
+        //jawab
+        let panjang = 15;
+        let lebar = 10;
+
+        const luasTaman = panjang * lebar; //rumus persegi panjang
+        console.log(luasTaman + ' km2');
+
+        // 7. soal ketujuh :
+
+        /*
+        Sebuah kue dipotong menjadi 8 bagian. Jika 3 orang makan kue tersebut, berapa bagian kue yang dimakan oleh setiap orang?
+        */
+
+        //jawab
+        let potonganKue = 8;
+        let orang = 3;
+
+        const bagianKueYangDimakan = potonganKue / orang;
+        console.log(bagianKueYangDimakan + ' bagian kue');
+
+        // 8. soal kedelapan :
+
+        /*
+        Sebuah mobil membutuhkan 1 liter bensin untuk menempuh jarak 10 km. Jika mobil tersebut memiliki tangki bensin 40 liter, berapa jarak yang dapat ditempuh mobil tersebut?
+        */
+
+        //jawab
+        let bensin = 1;
+        let jarak = 10;
+        let tangki = 40;
+
+        const jarakYangAkanDiTempuh = bensin * tangki * jarak;
+        console.log(jarakYangAkanDiTempuh + ' km');
+
+        // 9. soal kesembilan :
+
+        /*
+        Sebuah perusahaan memiliki 100 karyawan. Jika 60% dari karyawan tersebut adalah laki-laki, berapa banyak karyawan perempuan di perusahaan tersebut?
+        */
+
+        //jawab
+        let karyawan = 100;
+        let karyawanLakiLaki =
+        60; //60% dikonversi menjadi bilangan desimal 60 di karenakan jumlah total karyawan adalah 100,yang artinya adlah sangat identik dengan bilangan per 100
+
+        const jumlahKaryawanPerempuan = karyawan - karyawanLakiLaki;
+        console.log(jumlahKaryawanPerempuan + ' karyawan perempuan');
+
+        // 10. soal kesepuluh :
+
+        /*
+        Sebuah kelas memiliki 30 siswa. Jika nilai rata-rata siswa kelas tersebut adalah 80, berapa total nilai semua siswa di kelas tersebut?
+        */
+
+        //jawab
+        let siswa = 30;
+        let nilaiRataRata = 80;
+
+        const totalNilaiSiswa = siswa * nilaiRataRata;
+        console.log(totalNilaiSiswa + ' total nilai siswa');
+
+        //Bonus 
+
+        // soal Bonus 
+
+        /*
+        Buatlah program Javascript untuk menghitung luas segitiga dengan rumus Luas = (alas x tinggi) / 2
+        */ 
+
+        function luasSegitiga(alas, tinggi) {
+            return (alas * tinggi) / 2;
+        }
+
+        // Contoh penggunaan
+        const alas = 10;
+        const tinggi = 5;
+
+        const luas = luasSegitiga(alas, tinggi);
+
+        console.log("Luas segitiga dengan alas " + alas + " dan tinggi " + tinggi + " adalah " + luas);
+    </script>
+</body>
+<!--  -->
+</html>

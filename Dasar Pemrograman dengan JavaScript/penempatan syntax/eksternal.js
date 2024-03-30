@@ -1,0 +1,1 @@
+alert('hello evil corp !!! we are f-society');

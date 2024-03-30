@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aritmatika</title>
+</head>
+
+<body>
+    <script>
+        // 4 dan 2 adalah value dari variabel a dan b 
+        let a = 4;
+        let b = 2;
+
+        // Menggunakan operator penjumlahan
+        console.log(a + b); // Hasil: 6
+
+        // Menggunakan operator pengurangan
+        console.log(a - b); // Hasil: 2
+
+        // Menggunakan operator perkalian
+        console.log(a * b); // Hasil: 8
+
+        // Menggunakan operator pembagian
+        console.log(a / b); // Hasil: 2
+
+        // Menggunakan operator modulus
+        console.log(a % b); // Hasil: 0
+
+        /* Catatan :
+           operator increment dan decrement bukanlah operator
+           aritmatika,melainkan adalah operator penugasan
+           operator increment (++) digunakan untuk meningkatkan
+           nilai variabel sebesar satu, sedangkan operator 
+           decrement (--) digunakan untuk mengurangi nilai
+           variabel sebesar satu. 
+        */
+
+        // Menggunakan operator increment
+        a++;
+        console.log(a); // Hasil: 5
+
+        // Menggunakan operator decrement
+        b--;
+        console.log(b); // Hasil: 1
+
+        /*___________________________________________________________________________________________________________________________________*/
+
+        // Operator Precedence //
+        /* urutan operasi matematika */
+
+        /* Catatan :
+           Operasi matematika memiliki urutan operator yang
+           akan di kerjakan terlebih dahulu. terlepas
+           dari bagaimana cara kita menempatkannya dalam sebuah ekspresi.
+        */
+
+        /* Contoh :
+           > 1 + 2 * 3 - 4
+           berapa hasil dari operasi hitung di atas?
+           > 5 atau > 3
+
+           jika kamu menjawab > 5 maka kamu salah.
+           
+           karena di dalam operasi matematika terdapat yang namanya Operator Precedence atau urutan operasi
+           matematika yang mengharuskan mengerjakan terlebih dahulu sebuah operasi hitung,sebelum melanjutkan ke operasi hitung selanjutnya.
+
+           Urutannya : KuKaBaTaKu
+
+           Ku Ka Ba Ta Ku
+           () *  /  +  -
+
+           jadi,hasil perhitungan yang benar adalah > 3
+
+           karena 2 * 3 terlebih dahulu,lalu setelah itu
+           hasilnya + 1 dan hasil pertambahan akan di - 4,maka hasilnya adalah > 3 
+
+           jika kita menginginkan hasilnya adalah > 5 maka kita harus menambahkan () pada penjumlahan 1 + 2 ,agar operasi penjumlahan di eksekusi lebih dulu sebelum operasi perkalian.
+
+        */
+        // Contoh :
+        const hasil = 1 + 2 * 3 - 4;
+        console.log(hasil); // Output: 3
+
+        const hasil2 = (1 + 2) * 3 - 4;
+        console.log(hasil2); // Output: 5
+    </script>
+</body>
+
+</html>
