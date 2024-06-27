@@ -1,4 +1,5 @@
-ini merupakan repository dari pembelajaran javascript yang bersumber dari youtube pada channel WPU
-[+] di buat : 30 maret 2024
-[+] tujuan di buat :
--untuk membantu saya dan orang lain agar lebih mudah belajar bahasa pemrograman JavaScript
+This is a repository of JavaScript learning sourced from YouTube on the WPU channel
+[+] created: 30 March 2024
+[+] purpose created:
+-to help me and others more easily learn the JavaScript programming language
+-If you want to use it for learning, please do so, I'm happy to share it with those of you who want to learn
